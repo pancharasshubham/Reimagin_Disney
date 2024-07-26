@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimagin Disney Website</title>
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/easy.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="back">
+                <img src="/images/simba.jpg" alt="the lion king">
+                <img src="/images/maleficent.jpg" alt="maleficient">
+                <img src="/images/aladdin.jpg" alt="aladdin">
+                <img src="/images/wall-e.jpg" alt="wall-e">
+            </div>
+            <div id="top">
+                <div id="workingarea">
+                    <div id="nav">
+                        <div id="nleft">
+                            <img src="/images/Disney-Logo1.png" alt="disney logo">
+                            <a href="#shop-section">Shop</a>
+                            <a href="#park-section">Parks</a>
+                        </div>
+                        <div id="nright">
+                            <a href="#">Cruise</a>
+                            <a href="#">What's new</a>
+                        </div>
+                    </div>
+                    <div id="firstHero">
+                        <div id="heroleft">
+                            <div class="elem">
+                                <h1>the lion king</h1>
+                                <h1>Maleficient</h1>
+                                <h1>aladdin</h1>
+                                <h1>wall-e</h1>
+                                <!-- <h1>david chang</h1> -->
+                            </div>
+                            <div>
+                            <a href="/" class="btn mt-1">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="shop" id="shop-section">
+            <div class="wrapper">
+                <div class="container">
+                    <input type="radio" name="slide" id="c1" data-bg='/images/background/bg7.jpg' checked>
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4>Disney x Ginger </h4>
+                                <button>Shop Now</button>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c2" data-bg='/images/background/baby_avenger.png'>
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Disney x Mila Baby</h4>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" data-bg='/images/background/mickey.jpg'>
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>Disney x Hair Drama Co.</h4>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" data-bg='/images/background/frozen1.jpg'>
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>Disney x Toothless Kids</h4>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="park" id="park-section">
+            <div class="container1">
+                <div id="slide1">
+                    <div class="item" style="background-image: url(images/star_war_park.jpg);">
+                        <div class="content">
+                            <div class="name">Lengends of the Force</div>
+                            <div class="des">Discover now at disney land paris</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(images/park1.jpg);">
+                        <div class="content">
+                            <div class="name">14 Day Ticket at a 7 day price </div>
+                            <div class="des">book with walt disney world</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(images/park4.jpg);">
+                        <div class="content">
+                            <div class="name">Find Your Perfect Holiday</div>
+                            <div class="des">book with disney cruise line</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(images/park3.jpg);">
+                        <div class="content">
+                            <div class="name">Make life more fun</div>
+                            <div class="des">experience a new world in disney cruise</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(images/park2.jpg);">
+                        <div class="content">
+                            <div class="name">Experience a peace in world</div>
+                            <div class="des">make your holiday more memorable</div>
+                            <button>See more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><i class="ri-arrow-left-s-line"></i></button>
+                    <button id="next"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="walt" id="walt-section">
+            <div class="banner">
+                <img src="/images/bgimg.jpg" alt="background-image">
+                <div class="slider" style="--quantity: 10">
+                    <div class="item2" style="--position: 1"><img src="images/wall-e.jpg" alt="wall-e"></div>
+                    <div class="item2" style="--position: 2"><img src="images/frozen.jpg" alt="frozen"></div>
+                    <div class="item2" style="--position: 3"><img src="images/frozen2.jpg" alt="frozen2"></div>
+                    <div class="item2" style="--position: 4"><img src="images/starwar2.jpg" alt="starwar2"></div>
+                    <div class="item2" style="--position: 5"><img src="images/starwars.jpg" alt="starwars"></div>
+                    <div class="item2" style="--position: 6"><img src="images/aladdin.jpg" alt="aladdin"></div>
+                    <div class="item2" style="--position: 7"><img src="images/maleficent.jpg" alt="maleficent"></div>
+                    <div class="item2" style="--position: 8"><img src="images/nemo.jpg" alt="nemo"></div>
+                    <div class="item2" style="--position: 9"><img src="images/simba.jpg" alt="simba"></div>
+                    <div class="item2" style="--position: 10"><img src="images/toy_story.jpg" alt="toy_story"></div>
+                </div>
+                <div id="box">   
+                    <div class="model"></div>
+                    <!-- <h1>tribute to legend</h1> -->
+                    <!-- <button>Walt disney</button> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <script src="script.js"></script>
+</body>
+</html>
