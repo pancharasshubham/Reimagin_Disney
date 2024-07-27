@@ -255,7 +255,7 @@ input:checked + label .description {
     background-image: url('../images/final_blue_banner_4_copy_-_01_a50b5e9d.jpeg');
 }
 .card[for="c4"] {
-    background-image: url('images/disney_banner_mobile_da6fee66.jpeg');
+    background-image: url('../images/disney_banner_mobile_da6fee66.jpeg');
 }
 
 /* ****************************park******************************** */
