@@ -246,7 +246,7 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('images/disney-x-ginger-_-500-x-575_48785ba1.jpeg');
+    background-image: url('../images/800_x_600_avengers_ec604d30.jpeg');
 }
 .card[for="c2"] {
     background-image: url('images/800_x_600_avengers_ec604d30.jpeg');
