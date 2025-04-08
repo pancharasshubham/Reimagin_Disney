@@ -1,12 +1,12 @@
-#Reimagin disney
+# Reimagin disney
 
-##Recreate design for disney website with mordern touch  
+## Recreate Design For Disney Website With Mordern Touch  
 
--as you know disney website is feel old fashion.
+- as you know disney website is feel old fashion.
 
--we change whole UI of disney website for more cool looks and trendy design.
+- we change whole UI of disney website for more cool looks and trendy design.
 
-/tech stack use
+## Tech stack use
 1. HTML
 2. CSS
 3. Javascript
